@@ -1,0 +1,5 @@
+ant build
+adb push bin/vicky.jar /data/local/tmp
+adb shell am force-stop kik.android
+adb shell uiautomator runtest vicky.jar -c com.uken.vicky.LaunchSettings
+
