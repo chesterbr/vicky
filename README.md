@@ -10,7 +10,8 @@ A chatbot for kik.
 HADOUKEN DAY
 
 ## Where?
-who cares, really
+- Raspberry Pi ([adb built for it](http://forum.xda-developers.com/showthread.php?t=1924492))
+- Android >= 4.1 device (see below)
 
 ## Why?
 
