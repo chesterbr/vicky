@@ -1,32 +1,24 @@
 # Vicky
 
-## Who?
-Chester, Diogo and José
+This hackday project was a chatbot for closed mobile chat platforms. It used Android UI testing support library to scrape questions and write answers on the app running on a little phone.
 
-## What?
-A chatbot for kik.
+For added fun, we ran it on a Raspberry Pi and mounted it all on a cardboard box, making it an autonomous "bot" of sorts :smile:.
 
-## When?
-HADOUKEN DAY
+The code was built specifically for some 2014 version of the [Kik](https://www.kik.com/) and is unlikely to run with recent builds (or to comply with their TOS), but the genereral idea was interesting enough to be preserved.
+ 
+### Authors
 
-## Where?
-- Raspberry Pi
+@chesterbr, @dterror and @josedonizetti
+
+### Hardware used
+
+- Raspberry Pi (+WiFi module)
 - Android (>= 4.1) device
 
-## Why?
+### Overall idea
 
-It's awesome in and of itself. Plus, we can use it for different purposes such as:
-
-- Wingman, a bot that introduces you to a girl/guy, makes you look cool and gives basic info about you.
-- Translation bot.
-- Personal assistent kind of thing (how's the weather and the like)
-
-## How?
-
-two-parts:
-
-- Runs the bot engine on a server (qbert or something more appropriate)
-- Uses Google's ui manipulation tool to use kik on a device/emulator, talk to the bot server and respond back.
+- Run the bot engine on a server (in our case it was a modified version of [Hubot](https://hubot.github.com/), connected to a chat system like Hipchat or Slack)
+- Use Google's ui manipulation tool to kickstart kik on a device/emulator, talk to the bot server and respond back.
 
 ### Build instructions
 
@@ -46,7 +38,7 @@ On the Android (>= 4.1) device
 
 #### Running locally
 
-- (optional) Edit `LaunchSettings.java` (specifically, `getResponse` method) to change Vicky's behaviour whenever it receives a message (currently, it connects to a QBert instance to respond to messages, that is, Vicky *is* QBert).
+- (optional) Edit `LaunchSettings.java` (specifically, `getResponse` method) to change Vicky's behaviour whenever it receives a message (currently, it connects to a Hubot instance to respond to messages, that is, Vicky *is* Hubot).
 - `./run.sh` will:
   - use Ant to build `vicky.jar` with the behaviour above
   - install it on the phone
@@ -62,3 +54,9 @@ On the Android (>= 4.1) device
 - Build `vicky.jar` on your computer (see above), then copy `run.sh` and the bin directory (which should contain `vicky.jar`) to a directory on the device
 - On the device, comment first line of run.sh (you already have `vicky.jar`)
 
+
+#### Legal info
+
+This software is licensed for educational purposes under the terms of the MIT license. See LICENSE for details.
+
+The software or its authors do not represent any of the companies mentioned, and publish it in good faith of its potential usefulness as a learning tool for development.
