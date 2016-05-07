@@ -2,9 +2,11 @@
 
 This hackday project was a chatbot for closed mobile chat platforms. It used Android UI testing support library to scrape questions and write answers on the app running on a little phone.
 
-For added fun, we ran it on a Raspberry Pi and mounted it all on a cardboard box, making it an autonomous "bot" of sorts :smile:.
+For added fun, we ran it on a Raspberry Pi and mounted it all on a cardboard box, making it an autonomous "bot" of sorts:
 
-The code was built specifically for some 2014 version of the [Kik](https://www.kik.com/) and is unlikely to run with recent builds (or to comply with their TOS), but the genereral idea was interesting enough to be preserved.
+![The project as it ran on that hackday](/cardboard_vicky.jpg?raw=true "The project as it ran on that hackday")
+
+The code was built specifically for some 2014 version of [Kik](https://www.kik.com/) and is unlikely to run with recent builds (or to comply with their TOS), but the genereral idea was interesting enough to be preserved.
  
 ### Authors
 
