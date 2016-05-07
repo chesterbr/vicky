@@ -10,7 +10,7 @@ The code was built specifically for some 2014 version of [Kik](https://www.kik.c
  
 ### Authors
 
-@chesterbr, @dterror and @josedonizetti
+[@chesterbr](http://github.com/chesterbr), [@dterror](http://github.com/dterror) and [@josedonizetti](http://github.com/josedonizetti).
 
 ### Hardware used
 
